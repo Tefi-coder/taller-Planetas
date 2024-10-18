@@ -4,7 +4,7 @@ let contenedor = document.getElementById("contenedor");
 
 document.addEventListener("DOMContentLoaded", () => {
   botonBusqueda.addEventListener("click", () => {
-    let busqueda = barraBuscar.value.trim(); // Cambiado a barraBuscar
+    let busqueda = barraBuscar.value.trim(); 
 
     if (busqueda) {
       let url = `https://images-api.nasa.gov/search?q=${encodeURIComponent(busqueda)}`;
